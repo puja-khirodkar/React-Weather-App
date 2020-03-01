@@ -1,13 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Source+Code+Pro&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Open Sans', BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', -apple-system,
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ) no-repeat,  url(./background.png);
+  color: white;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: 'Source Code Pro', source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.number {
+  font-family: 'Source Code Pro', source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.center{
+  text-align: center;
+}
+
+.main-icon {
+  font-size: 7rem;
+  margin: 0.5em;
+  color: white;
 }
