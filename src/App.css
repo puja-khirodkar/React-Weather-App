@@ -2,9 +2,15 @@
     margin-bottom: 2rem;
     margin-top: 2rem ;
 }
+.city{
+    font-weight: bold;
+    font-size: 2rem;
+    margin-left: 40%;
+    margin-right: 40%;
+}
 .sub-component{
     border: 1px white solid ;
-    margin-top: 1em;
+    /*margin-top: 1em;*/
     margin-bottom: 1em;
     border-radius: 2em;
     padding-top: 2em;
